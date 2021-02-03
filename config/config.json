@@ -1,0 +1,87 @@
+{
+  "Part": [
+    {
+      "Part_Key": 2809196,
+      "Operation_Key": 56409,
+      "Assembly_Key": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "Current_Value": [0,0,0,0,0,0,0,0,0,0,0,0],
+      "IncrementBy":[2,2,2,2,2,2,2,2,2,2,2,2],
+      "PublishedToolChange":[1,1,1,1,1,1,1,1,1,1,1,1],
+      "RunningTotal":[0,0,0,0,0,0,0,0,0,0,0,0]
+    }
+  ],
+  "nodes": [
+    {
+      "updateId": 1,
+      "nodeId": "ns=2;s=cnc177.cnc177.cnc177.PartCounter",
+      "name":"PartCounter",
+      "plexus_Customer_No":"310507",
+      "pcn": "Avilla",
+      "workcenter_Key": "0",
+      "workcenter_Code": "None",        
+      "cnc": "177",
+      "value": 0,
+      "transDate": "2020-06-29 00:00:00"
+    },
+    {
+      "updateId": 2,
+      "nodeId": "ns=2;s=cnc289.cnc289._System.Description",
+      "name":"Description",
+      "plexus_Customer_No":"310507",
+      "pcn": "Avilla",
+      "workcenter_Key": "0", 
+      "workcenter_Code": "61328 JT Knuckle cnc 289",  
+      "cnc": "289",
+      "value": 0,
+      "transDate": "2020-06-29 00:00:00"
+    },
+    {
+      "updateId": 3,
+      "nodeId": "ns=2;s=cnc289.cnc289._System.DeviceId",
+      "name":"DeviceId",
+      "plexus_Customer_No":"310507",
+      "pcn": "Avilla",
+      "workcenter_Key": "0",
+      "workcenter_Code": "61328 JT Knuckle cnc 289",  
+      "cnc": "289",
+      "value": 0,
+      "transDate": "2020-06-29 00:00:00"
+    },
+    {
+      "updateId": 4,
+      "nodeId": "ns=2;s=cnc360.cnc360.Cycle_Counter_Shift_SL",
+      "name":"Cycle_Counter_Shift_SL",
+      "plexus_Customer_No":"310507",
+      "pcn": "Avilla",
+      "workcenter_Key": "61318",
+      "workcenter_Code": "Honda Civic cnc 360 363",  
+      "cnc": "360",
+      "value": 0,
+      "transDate": "2020-06-29 00:00:00"
+    },
+    {
+      "updateId": 5,
+      "nodeId": "ns=2;s=cnc362.cnc362.Cycle_Counter_Shift_SL",
+      "name":"Cycle_Counter_Shift_SL",
+      "plexus_Customer_No":"310507",
+      "pcn": "Avilla",
+      "workcenter_Key": "61314",
+      "workcenter_Code": "Honda Civic cnc 359 362",  
+      "cnc": "362",
+      "value": 0,
+      "transDate": "2020-06-29 00:00:00"
+    },
+    {
+      "updateId": 6,
+      "nodeId": "ns=2;s=cnc422.cnc422.Cycle_Counter_Shift_SL",
+      "name":"Cycle_Counter_Shift_SL",
+      "plexus_Customer_No":"310507",
+      "pcn": "Avilla",
+      "workcenter_Key": "61420",
+      "workcenter_Code": "FWD BE 517",  
+      "cnc": "422",
+      "value": 0,
+      "transDate": "2020-06-29 00:00:00"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Feat13319",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "Brent Groves",
+    "email": "brent.groves@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/",
+    "config": "config/"
+  },
+  "engines": {
+    "node": "^12.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "dev": "nodemon src/",
+    "start": "node src/",
+    "mocha": "mocha test/ --recursive --exit",
+    "all": "concurrently \"npm start\" \"cd ../Alarms13319 && ./start.sh\" \"cd ../React13319 && npm start\""
+  },
+  "dependencies": {
+    "@bgroves/common": "^1.2.0",
+    "@feathersjs/authentication": "^4.4.3",
+    "@feathersjs/authentication-local": "^4.4.3",
+    "@feathersjs/authentication-oauth": "^4.4.3",
+    "@feathersjs/configuration": "^4.4.3",
+    "@feathersjs/errors": "^4.4.3",
+    "@feathersjs/express": "^4.4.3",
+    "@feathersjs/feathers": "^4.4.3",
+    "@feathersjs/socketio": "^4.4.3",
+    "@feathersjs/transport-commons": "^4.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "feathers-knex": "^7.1.0",
+    "feathers-objection": "^4.6.3",
+    "feathers-sequelize": "^6.1.0",
+    "helmet": "^3.21.2",
+    "jstz": "^2.1.1",
+    "knex": "^0.20.4",
+    "mariadb": "^2.4.0",
+    "moment": "^2.26.0",
+    "mqtt": "^3.0.0",
+    "mssql": "^6.0.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.1.0",
+    "node-datetime": "^2.1.2",
+    "objection": "^1.6.11",
+    "sequelize": "^5.21.3",
+    "serve-favicon": "^2.5.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "y2hgQNf+K/iM3H5rOyDS9ZjmtXQ=",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  },
+  "mssql": {
+      "client": "mssql",
+      "connection": {
+        "host" : "10.30.1.17",
+        "user" : "sa",
+        "password" : "S@Tsql@dmin1",
+        "database" : "Kors"
+      }
+  },
+  "mach2": "mysql://brent:JesusLives1!@127.0.0.1/mach2",
+  "mysql": {
+    "client": "mysql",
+    "connection": "mysql://brent:JesusLives1!@127.0.0.1/mach2"
+  }
+}
